@@ -1,0 +1,48 @@
+body{
+    background: #eeee;
+    padding: 0px;
+    margin: 0px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font: 55px 'roboto';
+}
+
+.gamecontainer {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    z-index: 100;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding: 20px 10px;
+}
+button{
+    background: cornflowerblue;
+    border: 1px solid;
+    width: 70px;
+    font: 15px 'roboto';
+    border-radius: 10px;
+}
+button:hover{
+    background: rgb(90, 137, 224)
+}
